@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 @font-face {
     font-family: 'Norse';
     src: url('fonts/Norse.woff2') format('woff2'),
@@ -14,4 +19,29 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
+}
+
+.background {
+  background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: 55% 95%;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+}
+
+.logo {
+  margin-top: 200px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 150px;
+}
+
+.logo p{
+  font-family: 'Norse-Bold';
+  color: white;
+  font-size: 100px;
 }
