@@ -23,11 +23,10 @@
 
 .background {
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-  background-size: 80% 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 1000px;
   height: 1000px;
-  display: flex;
 }
 
 .logo {
@@ -46,6 +45,41 @@
   font-size: 100px;
 }
 
+#footer {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+#footer a{
+  text-decoration: underline;
+}
+
 .website {
   display: flex;
+}
+
+.sign-up {
+  margin-left: 20px;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.form {
+  display: flex;
+  width: 650px;
+}
+
+.form label{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2A3441;
+}
+
+.form a{
+  color: #596D48;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
 }
