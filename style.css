@@ -45,9 +45,13 @@
   font-size: 100px;
 }
 
+
 #footer {
   font-family: sans-serif;
   font-size: 12px;
+  color: white;
+  justify-self: center;
+  margin-top: 625px;
 }
 
 #footer a{
@@ -62,11 +66,17 @@
   margin-left: 20px;
   font-family: sans-serif;
   font-size: 24px;
+  font-weight: 500;
 }
 
 .form {
   display: flex;
   width: 650px;
+}
+
+.form p {
+  color: #2A3441;
+  font-size: 22px;
 }
 
 .form label{
@@ -75,11 +85,37 @@
   color: #2A3441;
 }
 
-.form a{
-  color: #596D48;
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 3px;
+  padding: 5px;
 }
 
-button {
+.form input:user-invalid {
+  border: 1px solid red;
+}
+
+.form input:focus {
+  border: 1px solid #2B59DA;
+}
+
+.footer button {
   background-color: #596D48;
   color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 2px 2px #E5E7EB;
+}
+
+.footer p{
+  font-size: 18px;
+}
+
+.footer a{
+  color: #596D48;
+  font-weight: bold;
 }
