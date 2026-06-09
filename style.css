@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+body {
+  background-color: #F9FAFB;
+}
+
 @font-face {
     font-family: 'Norse';
     src: url('fonts/Norse.woff2') format('woff2'),
@@ -21,12 +25,30 @@
     font-display: swap;
 }
 
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .background {
   background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
-  background-size: 100% 100%;
+  background-size: 100% 95%;
   background-repeat: no-repeat;
-  width: 1000px;
   height: 1000px;
+
 }
 
 .logo {
@@ -35,7 +57,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   justify-content: center;
   align-items: center;
-  width: 572px;
+  width: 525px;
   height: 150px;
 }
 
@@ -51,7 +73,7 @@
   font-size: 12px;
   color: white;
   justify-self: center;
-  margin-top: 625px;
+  margin-top: 575px;
 }
 
 #footer a{
@@ -63,33 +85,62 @@
 }
 
 .sign-up {
-  margin-left: 20px;
   font-family: sans-serif;
   font-size: 24px;
   font-weight: 500;
 }
 
+.sign-up p{
+  padding: 10px;
+}
+
+#text {
+  padding: 20px 10px 70px 40px;
+  margin-top: 150px;
+  font-family: "Roboto";
+  font-weight: 550;
+}
+
 .form {
   display: flex;
-  width: 650px;
+  border-left: 0;
+  border-right: 0;
+  padding: 10px 10px 30px 30px;
+  background-color: white;
+  box-shadow: 0 3px 5px 0 rgba(249, 250, 251, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .form p {
   color: #2A3441;
   font-size: 22px;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-weight: 550;
 }
 
 .form label{
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   color: #2A3441;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Roboto";
+  font-weight: 550;
 }
 
+label, input {
+  display: block;
+}
 
 input {
   border: 1px solid #E5E7EB;
   border-radius: 3px;
   padding: 5px;
+  width: 250px;
+}
+
+.space {
+  margin: 10px;
 }
 
 .form input:user-invalid {
@@ -98,21 +149,34 @@ input {
 
 .form input:focus {
   border: 1px solid #2B59DA;
+  outline: none;
+}
+
+.footer {
+  padding: 20px;
+  padding-left: 40px;
+  margin-top: 10px;
 }
 
 .footer button {
   background-color: #596D48;
   color: white;
-  width: 200px;
+  width: 250px;
   height: 50px;
   font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 550;
   border-radius: 10px;
   border: 0;
-  box-shadow: 2px 2px #E5E7EB;
+  box-shadow: 0 3px 5px 0 rgba(249, 250, 251, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .footer p{
   font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin-left: -10px;
+  margin-top: 15px;
 }
 
 .footer a{
