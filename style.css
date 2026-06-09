@@ -120,11 +120,11 @@ body {
 }
 
 .form label{
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   color: #2A3441;
   font-weight: bold;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   font-family: "Roboto";
   font-weight: 550;
 }
@@ -137,7 +137,7 @@ input {
   border: 1px solid #E5E7EB;
   border-radius: 3px;
   padding: 5px;
-  width: 250px;
+  width: 225px;
   font-size: 14px;
   font-family: "Roboto";
   font-weight: 400;
@@ -166,7 +166,7 @@ input {
 .footer button {
   background-color: #596D48;
   color: white;
-  width: 250px;
+  width: 225px;
   height: 50px;
   font-size: 18px;
   font-family: "Roboto";
